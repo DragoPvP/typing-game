@@ -40,3 +40,7 @@ let score = 0;
 
 // Init time
 ket time = 10;
+
+function getRandomWord() {
+  return word[Math.floor(Math.random() * words.length)];
+}
